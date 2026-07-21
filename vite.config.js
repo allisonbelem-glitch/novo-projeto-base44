@@ -1,4 +1,4 @@
-
+import { base44 } from '@base44/vite-plugin' // ou '@base44/sdk/vite', dependendo do pacote instalado
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
