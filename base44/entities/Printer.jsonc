@@ -1,0 +1,42 @@
+{
+  "name": "Printer",
+  "type": "object",
+  "properties": {
+    "client_id": {
+      "type": "string",
+      "title": "Cliente"
+    },
+    "marca": {
+      "type": "string",
+      "title": "Marca"
+    },
+    "modelo": {
+      "type": "string",
+      "title": "Modelo"
+    },
+    "numero_serie": {
+      "type": "string",
+      "title": "N\u00famero de S\u00e9rie"
+    },
+    "tipo": {
+      "type": "string",
+      "enum": [
+        "laser",
+        "jato_tinta",
+        "termica",
+        "matricial",
+        "multifuncional"
+      ],
+      "default": "laser",
+      "title": "Tipo"
+    },
+    "observacoes": {
+      "type": "string",
+      "title": "Observa\u00e7\u00f5es"
+    }
+  },
+  "required": [
+    "marca",
+    "modelo"
+  ]
+}

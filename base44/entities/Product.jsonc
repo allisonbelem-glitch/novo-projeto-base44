@@ -1,0 +1,31 @@
+{
+  "name": "Product",
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string",
+      "title": "Nome"
+    },
+    "descricao": {
+      "type": "string",
+      "title": "Descri\u00e7\u00e3o"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "peca",
+        "servico"
+      ],
+      "default": "peca",
+      "title": "Tipo"
+    },
+    "preco": {
+      "type": "number",
+      "default": 0,
+      "title": "Pre\u00e7o"
+    }
+  },
+  "required": [
+    "nome"
+  ]
+}

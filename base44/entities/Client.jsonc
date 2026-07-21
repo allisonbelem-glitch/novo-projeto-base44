@@ -1,0 +1,45 @@
+{
+  "name": "Client",
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string",
+      "title": "Nome"
+    },
+    "cpf_cnpj": {
+      "type": "string",
+      "title": "CPF/CNPJ"
+    },
+    "telefone": {
+      "type": "string",
+      "title": "Telefone"
+    },
+    "email": {
+      "type": "string",
+      "title": "E-mail"
+    },
+    "endereco": {
+      "type": "string",
+      "title": "Endere\u00e7o"
+    },
+    "cidade": {
+      "type": "string",
+      "title": "Cidade"
+    },
+    "estado": {
+      "type": "string",
+      "title": "Estado"
+    },
+    "cep": {
+      "type": "string",
+      "title": "CEP"
+    },
+    "observacoes": {
+      "type": "string",
+      "title": "Observa\u00e7\u00f5es"
+    }
+  },
+  "required": [
+    "nome"
+  ]
+}

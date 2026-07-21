@@ -1,0 +1,53 @@
+{
+  "name": "CompanyProfile",
+  "type": "object",
+  "properties": {
+    "nome_fantasia": {
+      "type": "string",
+      "title": "Nome Fantasia"
+    },
+    "razao_social": {
+      "type": "string",
+      "title": "Raz\u00e3o Social"
+    },
+    "cnpj": {
+      "type": "string",
+      "title": "CNPJ"
+    },
+    "telefone": {
+      "type": "string",
+      "title": "Telefone"
+    },
+    "email": {
+      "type": "string",
+      "title": "E-mail"
+    },
+    "endereco": {
+      "type": "string",
+      "title": "Endere\u00e7o"
+    },
+    "cidade": {
+      "type": "string",
+      "title": "Cidade"
+    },
+    "estado": {
+      "type": "string",
+      "title": "Estado"
+    },
+    "cep": {
+      "type": "string",
+      "title": "CEP"
+    },
+    "logo_url": {
+      "type": "string",
+      "title": "Logo (URL)"
+    },
+    "termos_garantia": {
+      "type": "string",
+      "title": "Termos de Garantia"
+    }
+  },
+  "required": [
+    "nome_fantasia"
+  ]
+}
